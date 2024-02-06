@@ -1,0 +1,17 @@
+@back CiberCityBackground
+@printer Dialogue default:true
+
+What is your name stranger? 
+
+@input playerName summary:"Choose your name." value:{T_DefaultName}
+@stop
+@set nameSet=true
+
+@set location01Available=true
+@set location02Available=false
+@set location03Available=false
+@set gaveTheObject=false
+@set usedTheObject=false
+@goto Location01.Start
+
+@stop

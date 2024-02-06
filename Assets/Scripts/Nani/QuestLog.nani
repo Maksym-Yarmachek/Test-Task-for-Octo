@@ -1,0 +1,34 @@
+#Quest1_1
+@print "Visit Rebecca at Location 02" printer:QuestLog wait:false speed:4
+@goto Location01.BackQuest1_1
+@stop
+
+#Quest1_2
+@print "Play the minigame" printer:QuestLog wait:false speed:4
+@goto Location02.BackQuest1_2
+@stop
+
+#Quest1_3
+@print "Go to Location 03" printer:QuestLog wait:false speed:4
+
+@goto Location02.BackQuest1_3
+@stop
+
+#Quest1_4
+@print "Run back to Rebecca (Location 02)" printer:QuestLog wait:false speed:4
+@set questItemId=2
+@goto Location03.BackQuest1_4
+@stop
+
+#Quest1_5
+@print "Run back to 2B (Location 01)" printer:QuestLog wait:false speed:4
+@goto Location02.BackQuest1_5
+@stop
+
+#Quest1_6_Final
+@hidePrinter QuestLog
+@set questItemId=0
+@goto Location01.Quest1_6_Final
+@stop
+
+@stop

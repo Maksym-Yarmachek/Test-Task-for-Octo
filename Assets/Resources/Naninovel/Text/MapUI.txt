@@ -1,0 +1,3 @@
+TitleMenu.Location01: Location 01
+TitleMenu.Location02: Location 02
+TitleMenu.Location03: Location 03

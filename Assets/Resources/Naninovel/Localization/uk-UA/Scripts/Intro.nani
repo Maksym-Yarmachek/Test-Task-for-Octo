@@ -1,0 +1,9 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Intro` naninovel script
+
+# cff3f2a2
+; What is your name stranger? 
+Як тебе звати незнайомець? 
+
+# c9a0f7b
+; @input playerName summary:"Choose your name." value:{T_DefaultName}
+@input playerName summary:"Обери своє ім'я." value:{T_DefaultName}

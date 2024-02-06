@@ -1,0 +1,71 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `DefaultUI` managed text document
+
+CGGallery.Title: CG GALLERY
+Confirmation.No: НІ
+Confirmation.Yes: ТАК
+ControlPanel.Auto: АВТО
+ControlPanel.Hide: СХОВАТИ
+ControlPanel.Load: LOAD
+ControlPanel.Log: ЛОГ
+ControlPanel.QuickLoad: Q.LOAD
+ControlPanel.QuickSave: Q.SAVE
+ControlPanel.Save: SAVE
+ControlPanel.Settings: НАЛАШТУВАННЯ
+ControlPanel.Skip: SKIP
+ControlPanel.Tips: TIPS
+ControlPanel.Title: МЕНЮ
+ExternalScriptsBrowser.Info: Select a script to play
+ExternalScriptsBrowser.Title: EXTERNAL SCRIPTS
+General.Close: ЗАКРИТИ
+General.Return: НАЗАД
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Are you sure you want to quit to the title screen?\nAny unsaved game progress will be lost.
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: Default
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: Default
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Extra Large
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Large
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Small
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Very Low
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Low
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Medium
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: High
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Very High
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ultra
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: Full Screen
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Full Screen Window
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Maximized Window
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: Windowed
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Everything
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Read Only
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Empty
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Are you sure you want to delete save slot?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Are you sure you want to overwrite save slot?
+SaveLoadMenu.Tab.Load: LOAD
+SaveLoadMenu.Tab.QuickLoad: Q. LOAD
+SaveLoadMenu.Tab.Save: SAVE
+SettingsMenu.AutoDelay: Auto delay:
+SettingsMenu.Font: Font:
+SettingsMenu.FontSize: Font size:
+SettingsMenu.Graphics: Graphics:
+SettingsMenu.Language: Language:
+SettingsMenu.MessageSpeed: Message speed:
+SettingsMenu.Preview: Preview
+SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam in felis purus. 
+SettingsMenu.Resolution: Resolution:
+SettingsMenu.ScreenMode: Screen mode:
+SettingsMenu.SkipMode: Skip mode:
+SettingsMenu.Tab.Basic: ОСНОВНІ
+SettingsMenu.Tab.Sound: ЗВУК
+SettingsMenu.Tab.Text: TEКСТ
+SettingsMenu.VoiceLanguage: Voice language:
+SettingsMenu.VolumeEffects: Effects volume:
+SettingsMenu.VolumeMaster: Master volume:
+SettingsMenu.VolumeMusic: Music volume:
+SettingsMenu.VolumeVoice: Voice volume:
+TitleMenu.CGGallery: CG GALLERY
+TitleMenu.Continue: ПРОДОВЖИТИ
+TitleMenu.Exit: ВИХІД
+TitleMenu.ExternalScripts: EXTERNAL SCRIPTS
+TitleMenu.NewGame: НОВА ГРА
+TitleMenu.Settings: НАЛАШТУВАННЯ
+TitleMenu.Tips: ПІДКАЗКИ
+VariableInput.Submit: ПРИЙНЯТИ

@@ -1,0 +1,61 @@
+#Start
+@hideChars remove:true
+@hidePrinter Dialogue 
+@back GroceryStoreBackground
+@showUI TopToolbarUI
+
+@if gaveTheObject==true
+    @if gaveTheObjectTo==1
+        @goto .RebeccaLoveYou
+    @else
+        @goto .RebeccaHateYou
+    @endIf
+@elseIf usedTheObject==true
+    @goto .NobodyHere
+@endIf
+
+@set location01Available=false
+@char Reb scale:0.6 look:Right
+
+Reb: Hola sineor {playerName}![i] Play the game with me and maybe I'll give you a shining thing.
+@goto QuestLog.Quest1_2
+#BackQuest1_2
+
+#PlayingTheGame
+@hideChars remove:true
+@hidePrinter Dialogue
+@minigame
+@stop
+
+#AfterMinigame
+@back GroceryStoreBackground
+@spawn Rain wait:false
+@showUI TopToolbarUI
+
+@char Reb scale:0.6 look:Right
+Reb: {playerName} it was a tough game...[i] Anyway here is your thing!
+Rebecca gives you a thing.
+@set questItemId=1
+Reb: Oh and I think u need to bring it at the <b>Location 03</b>.
+@set location03Available=true
+@goto QuestLog.Quest1_3
+#BackQuest1_3
+@stop
+
+#NobodyHere
+Player: Crap she is not here. I have to see 2B!
+@goto QuestLog.Quest1_5
+#BackQuest1_5
+
+@stop
+
+
+#RebeccaLoveYou
+@char Reb scale:0.6 look:Right
+Reb: Pfffff. Easy-peasy, lemon squeezy. [i] Love you.
+@stop
+
+#RebeccaHateYou
+@char Reb scale:0.6 look:Right
+Reb: Not a big lost, but anyway I hate you now. Bye.
+@stop

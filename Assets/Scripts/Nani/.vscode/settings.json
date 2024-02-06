@@ -1,0 +1,34 @@
+{
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "editor.wordWrap": "on",
+    "editor.wordBasedSuggestions": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "CommentLine": { "foreground": "#5d6470", "italic": true },
+            "CommentText": { "foreground": "#5d6470", "italic": true },
+            "LabelLine": "#9bc37c",
+            "LabelText": "#9bc37c",
+            "CommandLine": "#6cb2ed",
+            "InlinedCommand": "#6cb2ed",
+            "Command": "#6cb2ed",
+            "CommandIdentifier": "#6cb2ed",
+            "Parameter": "#cd9769",
+            "ParameterIdentifier": "#cd9769",
+            "ParameterValue": "#e2be7f",
+            "GenericTextLine": "#acb2be",
+            "GenericTextPrefix": "#e2be7f",
+            "GenericTextAuthor": "#e2be7f",
+            "GenericTextAuthorAppearance": "#e2be7f",
+            "Expression": "#62b8c1",
+            "TextIdentifier": "#5d6470",
+            "Error": "#d14e4e"
+        }
+    },
+    "cSpell.enableFiletypes": [
+        "naniscript"
+    ]
+}

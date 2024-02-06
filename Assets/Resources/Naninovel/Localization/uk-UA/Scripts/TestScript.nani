@@ -1,0 +1,17 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `TestScript` naninovel script
+
+# cff3f2a2
+; What is your name stranger?
+Як вас звати?
+
+# c9a0f7b
+; @input playerName summary:"Choose your name." value:{T_DefaultName}
+
+# 641b20aa
+; Player: You can call me {playerName}.
+
+# b163e1da
+; 2B: Hi {playerName}!
+
+# 82cc9bf4
+; Reb: Hola sinior {playerName}!

@@ -1,0 +1,69 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Location01` naninovel script
+
+# 69251a11
+; 2B: Hi, who are you?
+2B: Привіт ти хто?
+
+# 641b20aa
+; Player: You can call me {playerName}.
+Player: Можеш звати мене {playerName}.
+
+# 48f117e4
+; 2B: Hello {playerName}![i] Go to <b>Location 02</b> and speek with my friend Rebecca.
+2B: Привіт {playerName}![i] Іди на <b>Локацію 02</b> та поговори з моєю подругою Ребеккою.
+
+# 76e12849
+; 2B: *Loudly quarrels with Rebecca*!
+2B: *Голосно свариться з Ребеккою*!
+
+# d1ee0791
+; Reb: *Yells at 2B back!*
+Reb: *Кричить на 2B у відповідь!*
+
+# 834d621d
+; Player: Calm down girls. [i] What's the point of the screams? [i] 2B tell me what's the problem?
+Player: Заспокойтесь дівчата.[i] До чого крики?[i] 2B скажіть мені, в чому проблема?
+
+# 236c9298
+; 2B: Problem?! [i] Problem?! [i] I'll tell you the problem. [i]  I needed this thing and she gave it to you.
+2B:  Проблема?![i] Проблема?![i] Я розкажу тобі про проблему.[i] Мені потрібна була ця річ, і вона дала її тобі.
+
+# 6e5424dc
+; 2B: Now she wants to take it back. I would be very grateful if would you just give it to me.
+2B: Тепер вона хоче забрати її назад. Я буду дуже вдячна, якщо ти просто віддаш її мені.
+
+# ebb28f7b
+; Reb: Look who is frowning.[i] It's my thing.[i] I do what I want with it. I want I'll give, I want I'll leave, and if I want, I will ask it back.
+Reb: Подивіться, хто нахнюпився.[i] Це моя річ.[i] Я роблю з нею те, що захочу. Захочу — віддам, захочу — захишу, а захочу — попрошу назад.
+
+# ff773c3c
+; Reb: By the way. {playerName} do you want to give me back it?
+Reb: До речі. {playerName}, ти не хочеш повернути мені її?
+
+# b3da047c
+; 2B: No. Give it to me.
+2B: Ні. Віддай її мені.
+
+# ea143983
+; @choice Rebecca handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/RebChoiceButton set:gaveTheObjectTo=1 goto:.AfterChoice
+@choice Ребекка handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/RebChoiceButton set:gaveTheObjectTo=1 goto:.AfterChoice
+
+# 58b0d676
+; @choice 2B handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/2BChoiceButton set:gaveTheObjectTo=2 goto:.AfterChoice
+@choice 2B handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/2BChoiceButton set:gaveTheObjectTo=2 goto:.AfterChoice
+
+# 1699cfdd
+; @choice "It's mine" handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/PlayerChoiceButton set:gaveTheObjectTo=0 goto:.AfterChoice
+@choice "Вона моя" handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/PlayerChoiceButton set:gaveTheObjectTo=0 goto:.AfterChoice
+
+# 626475b3
+; Player: Maybe I should visit the girls?
+Player: Може мені відвідати дівчат?
+
+# a12a4c1e
+; 2B: You have made a great choice. [i] Love you.
+2B: Ти зробив чудовий вибір.[i]Люблю тебе.
+
+# ff35637e
+; 2B: F*ck of meetbag.
+2B: Від*бись.

@@ -1,0 +1,68 @@
+#Start
+@hideChars remove:true
+@hidePrinter Dialogue 
+@back CiberCityBackground
+@spawn Rain wait:false
+@showUI TopToolbarUI
+
+@if gaveTheObject==true 
+    @if gaveTheObjectTo==2
+        @goto .2BLoveYou
+    @else
+        @goto .2BHateYou
+    @endIf
+@elseIf usedTheObject==true
+    @goto .GirlsArgue
+@endIf
+
+
+@char 2B scale:0.45
+
+2B: Hi, who are you?
+
+Player: You can call me {playerName}.
+
+2B: Hello {playerName}![i] Go to <b>Location 02</b> and speek with my friend Rebecca.
+
+@set location02Available=true
+@goto QuestLog.Quest1_1
+#BackQuest1_1
+@stop
+
+#GirlsArgue
+@char 2B scale:0.45
+@char Reb scale:0.6 look:Right
+
+2B: *Loudly quarrels with Rebecca*!
+Reb: *Yells at 2B back!*
+Player: Calm down girls. [i] What's the point of the screams? [i] 2B tell me what's the problem?
+2B: Problem?! [i] Problem?! [i] I'll tell you the problem. [i]  I needed this thing and she gave it to you.
+2B: Now she wants to take it back. I would be very grateful if would you just give it to me.
+Reb: Look who is frowning.[i] It's my thing.[i] I do what I want with it. I want I'll give, I want I'll leave, and if I want, I will ask it back.
+Reb: By the way. {playerName} do you want to give me back it?
+2B: No. Give it to me.
+
+@choice Rebecca handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/RebChoiceButton set:gaveTheObjectTo=1 goto:.AfterChoice
+@choice 2B handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/2BChoiceButton set:gaveTheObjectTo=2 goto:.AfterChoice
+@choice "It's mine" handler:ButtonListHoriz button:Naninovel/Prefabs/UI/ChoiseButtons/PlayerChoiceButton set:gaveTheObjectTo=0 goto:.AfterChoice
+@stop
+
+
+#AfterChoice
+@set gaveTheObject=true
+@goto QuestLog.Quest1_6_Final
+#Quest1_6_Final
+@hideChars remove:true
+Player: Maybe I should visit the girls?
+@stop
+
+
+#2BLoveYou
+@char 2B scale:0.45
+2B: You have made a great choice. [i] Love you.
+@stop
+
+#2BHateYou
+@char 2B scale:0.45 look:Right
+2B: F*ck of meetbag.
+@stop

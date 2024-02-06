@@ -1,0 +1,19 @@
+#Start
+@hideChars remove:true
+@hidePrinter Dialogue 
+@back CiberCafeBackround
+@showUI TopToolbarUI
+
+
+Player: I think I need to use the shining thing Rebecca gave me.
+@choice "Use the shining object."
+@stop
+Player: Oh damn...[i] Sh*t. Sh*t. Sh*t.[i] Now I have to run back to Rebecca.
+
+@set location01Available=true
+@set location03Available=false
+@set usedTheObject=true
+@goto QuestLog.Quest1_4
+#BackQuest1_4
+
+@stop

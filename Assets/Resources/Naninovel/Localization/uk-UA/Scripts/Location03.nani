@@ -1,0 +1,13 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Location03` naninovel script
+
+# daf086e3
+; Player: I think I need to use the shining thing Rebecca gave me.
+Player: Я думаю, що мені потрібно використати сяючу штуку, яку мені дала Ребекка.
+
+# 3461e449
+; @choice "Use the shining object."
+@choice "Використати сяючий предмет."
+
+# 301a958
+; Player: Oh damn...[i] Sh*t. Sh*t. Sh*t.[i] Now I have to run back to Rebecca.
+Player: Воу…[i]Хана. Хана. Хана.[i]Тепер я мушу бігти назад до Ребекки.

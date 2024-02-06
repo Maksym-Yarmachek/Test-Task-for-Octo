@@ -1,0 +1,21 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `QuestLog` naninovel script
+
+# 6ca1fb02
+; @print "Visit Rebecca at Location 02" printer:QuestLog wait:false speed:4
+@print "Відвідай Ребекку на Локації 02" printer:QuestLog wait:false speed:4
+
+# 52f39bdc
+; @print "Play the minigame" printer:QuestLog wait:false speed:4
+@print "Зіграйте в мінігру" printer:QuestLog wait:false speed:4
+
+# a9433539
+; @print "Go to Location 03" printer:QuestLog wait:false speed:4
+@print "Перейди до Локації 03" printer:QuestLog wait:false speed:4
+
+# b93b9579
+; @print "Run back to Rebecca (Location 02)" printer:QuestLog wait:false speed:4
+@print "Біжи назад до Ребекки (Локація 02)" printer:QuestLog wait:false speed:4
+
+# b9f76c18
+; @print "Run back to 2B (Location 01)" printer:QuestLog wait:false speed:4
+@print "Біжи назад до 2B (Локація 01)" printer:QuestLog wait:false speed:4

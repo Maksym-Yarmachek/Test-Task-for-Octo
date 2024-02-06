@@ -1,0 +1,5 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `MapUI` managed text document
+
+TitleMenu.Location01: Локація 01
+TitleMenu.Location02: Локація 02
+TitleMenu.Location03: Локація 03

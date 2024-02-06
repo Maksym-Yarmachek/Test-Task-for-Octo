@@ -1,0 +1,5 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `CharacterNames` managed text document
+
+2B: 2B
+Player: {PlayerName}
+Reb: Ребекка
